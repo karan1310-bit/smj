@@ -6,25 +6,25 @@ export default function HeroJoyOfJewelry() {
   return (
     <section className="relative w-full h-screen">
       {/* Hero Image */}
-      <div className="relative w-full h-[700px] md:h-[730px]">
+      <div className="relative w-full h-screen">
         <Image
           src="/3.png" 
           alt="Joy of Jewelry model image"
           fill
-          className="object-cover object-[30%_75%]"
+          className="object-cover object-[20%_70%] md:object-[30%_85%]"
           priority
         />
 
         {/* Overlay content */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-          <h1 className="text-white text-4xl sm:text-5xl md:text-7xl font-neue font-semibold mb-4 drop-shadow-lg">
-            Joy of Jewelry
+        <div className="absolute md:inset-0 bottom-24 flex flex-col items-center justify-center text-center">
+          <h1 className="text-[#FFFFFF] text-[42px] sm:text-5xl md:text-8xl font-neue font-semibold md:mt-40 mb-0 md:mb-2 drop-shadow-lg">
+            Jewel Your Journey
           </h1>
-          <p className="text-white font-neue text-sm sm:text-base md:text-xl max-w-md mb-6">
-            Crafted to complement your every moment, from the everyday sparkle to life's grandest celebrations.
+          <p className="text-[#FFFFFF] font-neue text-base sm:text-base md:text-xl leading-tight px-4 md:max-w-md mb-3 md:mb-3">
+            Ujjain’s trusted jewelers—where tradition meets contemporary design.
           </p>
-          <button className="bg-white font-neue text-black text-sm font-medium px-6 py-3 rounded-md hover:bg-gray-100 transition">
-            SHOP NOW
+          <button className="bg-[#FFFFFF] font-neue text-black text-base md:text-lg cursor-pointer font-medium md:px-6 px-4 py-2 md:py-3 rounded-md hover:bg-gray-100 transition">
+            Explore Collection
           </button>
         </div>
       </div>
