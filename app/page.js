@@ -1,6 +1,9 @@
 import FindYourPerfectMatch from '@/components/Category'
+import Footer from '@/components/Footer'
 import HeroJoyOfJewelry from '@/components/Hero'
 import Navbar from '@/components/Navbar'
+import NewArrivals from '@/components/NewCollection'
+import KinnFlagshipHero from '@/components/Store'
 import React from 'react'
 
 const page = () => {
@@ -9,7 +12,9 @@ const page = () => {
       <Navbar />
       <HeroJoyOfJewelry />
       <FindYourPerfectMatch />
-      <div className='h-screen bg-white'></div>
+      <NewArrivals />
+      <KinnFlagshipHero />
+      <Footer />
     </main>
   )
 }

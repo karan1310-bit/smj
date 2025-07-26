@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <>
       {/* Top Navbar */}
-      <nav className="fixed top-0 left-0 w-full z-50 bg-[#FFFFFF]/50 text-black px-4 md:px-12 py-4 md:py-3 flex justify-between items-center">
+      <nav className="fixed top-0 left-0 w-full z-50 bg-[#FFFFFF] text-black px-4 md:px-12 py-3 md:py-3 flex justify-between items-center">
         <Link href="/">
         <h1>SMJ</h1>
         </Link>
@@ -48,7 +48,7 @@ export default function Navbar() {
             alt="Logo"
             width={56}
             height={56}
-            className="object-fill h-20 w-36 md:h-32 md:w-60"
+            className="object-fill"
           />
           <button
             onClick={closeMenu}
@@ -61,13 +61,12 @@ export default function Navbar() {
 
         {/* Nav Links */}
         <nav className="mt-10 flex flex-col gap-4 text-sm md:text-base font-extralight uppercase">
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-900 pb-2">Wheels</Link>
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-900 pb-2">Racing Seats</Link>
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-900 pb-2">Steerings Wheels</Link>
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-900 pb-2">Accessories</Link>
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-900 pb-2">Extras</Link>
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-900 pb-2">Custom Forged Wheels</Link>
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-900 pb-2">JDM Import Service</Link>
+          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Rings</Link>
+          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Necklaces</Link>
+          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Earrings</Link>
+          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Chains</Link>
+          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Bracelet</Link>
+          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Bangles</Link>
         </nav>
       </aside>
     </>

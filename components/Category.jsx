@@ -4,7 +4,7 @@ import Image from "next/image";
 const categories = [
   {
     id: 1,
-    name: "EARRINGS",
+    name: "RINGS",
     src: "/1.jpg",
     alt: "Earrings",
     width: 720,
@@ -12,7 +12,7 @@ const categories = [
   },
   {
     id: 2,
-    name: "FINGER RINGS",
+    name: "EARRINGS",
     src: "/2.jpg",
     alt: "Finger Rings",
     width: 720,
@@ -28,7 +28,7 @@ const categories = [
   },
   {
     id: 4,
-    name: "MANGALSUTRA",
+    name: "NECKLACES",
     src: "/hey.jpg",
     width: 720,
     height: 900,
@@ -42,7 +42,7 @@ export default function FindYourPerfectMatch() {
       aria-labelledby="perfect-match-heading"
       className="w-full bg-[#FFFFFF] text-neue"
     >
-      <div className="mx-auto max-w-[1340px] px-4 sm:px-6 py-8 md:py-16 lg:px-8 xl:px-20">
+      <div className="mx-auto px-4 sm:px-6 py-12 md:py-12 lg:px-8 xl:px-20">
         {/* Headings */}
         <header className="text-center">
           <h1
