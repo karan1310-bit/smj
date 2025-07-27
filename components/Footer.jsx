@@ -5,17 +5,17 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-black text-white text-sm">
-      <div className="max-w-[1320px] px-4 md:px-16 py-8 md:py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-10">
+    <footer className="w-full bg-black text-white text-sm md:text-base font-neue">
+      <div className="max-w-[1320px] px-4 md:px-16 py-8 md:py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10">
         {/* Logo */}
         <div>
-          <h2 className="text-2xl font-serif font-medium mb-0">Shree Mahaveer Jewellers</h2>
+          <h2 className="text-2xl font-medium mb-0">Shree Mahaveer Jewellers</h2>
         </div>
 
         {/* Shop By */}
         <div>
           <h3 className="text-base font-semibold mb-3">Shop By</h3>
-          <ul className="space-y-2 text-white/80">
+          <ul className="space-y-1 md:space-y-2 text-white/80">
             <li><Link href="#">Earrings</Link></li>
             <li><Link href="#">Necklaces</Link></li>
             <li><Link href="#">Bracelets</Link></li>
@@ -24,13 +24,11 @@ export default function Footer() {
         </div>
 
         {/* About */}
-        <div>
+        <div className=''>
           <h3 className="text-base font-semibold mb-3">About</h3>
-          <ul className="space-y-2 text-white/80">
-            <li><Link href="#">FAQ</Link></li>
+          <ul className="space-y-1 md:space-y-2 text-white/80">
             <li><Link href="#">Jewelry Care</Link></li>
             <li><Link href="#">Our Designers</Link></li>
-            <li><Link href="#">Press</Link></li>
             <li><Link href="#">Stores</Link></li>
           </ul>
         </div>
@@ -38,7 +36,7 @@ export default function Footer() {
         {/* Contact */}
         <div>
           <h3 className="text-base font-semibold mb-3">Contact</h3>
-          <ul className="space-y-2 text-white/80">
+          <ul className="space-y-1 md:space-y-2 text-white/80">
             <li>
               <Link href="#" className=" underline-offset-2">
                 Contact Us

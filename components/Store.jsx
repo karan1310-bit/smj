@@ -27,10 +27,10 @@ export default function KinnFlagshipHero() {
             </p>
 
             <h1 className="mt-2 md:mt-6 text-4xl md:text-7xl leading-none tracking-wide font-semibold drop-shadow-lg">
-              Shree Mahaveer <span className="italic font-light">Jewellers</span>
+              Jewel Your <span className="italic font-light">Journey</span>
             </h1>
 
-            <p className="mx-auto mt-4 md:mt-4 max-w-lg text-base leading-tight text-white md:text-2xl drop-shadow-md">
+            <p className="mx-auto mt-2 md:mt-4 max-w-lg text-base leading-tight text-white md:text-2xl drop-shadow-md">
                We invite you to visit our store in Ujjain for a personalized luxury experience.
             </p>
 

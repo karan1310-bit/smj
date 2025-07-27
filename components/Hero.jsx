@@ -17,8 +17,8 @@ export default function HeroJoyOfJewelry() {
 
         {/* Overlay content */}
         <div className="absolute md:inset-0 bottom-24 flex flex-col items-center justify-center text-center">
-          <h1 className="text-[#FFFFFF] text-[42px] sm:text-5xl md:text-8xl font-neue font-semibold md:mt-40 mb-0 md:mb-2 drop-shadow-lg">
-            Jewel Your Journey
+          <h1 className="text-[#FFFFFF] text-[42px] sm:text-5xl md:text-8xl font-neue leading-none font-semibold md:mt-40 mb-2 md:mb-2 drop-shadow-lg">
+            Shree Mahaveer Jewellers
           </h1>
           <p className="text-[#FFFFFF] font-neue text-base sm:text-base md:text-xl leading-tight px-4 md:max-w-md mb-3 md:mb-3">
             Ujjain’s trusted jewelers—where tradition meets contemporary design.
