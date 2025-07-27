@@ -67,19 +67,19 @@ export default function NewArrivals() {
     <section className="w-full bg-[#FFFFFF] font-neue">
       <div className="px-4 md:px-16">
         {/* Header */}
-        <div className="flex flex-col gap-6 pt-2 md:flex-row md:items-start md:justify-between md:pt-14">
+        <div className="flex flex-col gap-2 md:gap-6 pt-2 text-center md:text-start md:flex-row md:items-start md:justify-between md:pt-14">
           <div>
             <h1 className="text-[32px] sm:text-[40px] md:text-6xl text-gray-900">
               New Arrivals
             </h1>
-            <p className="max-w-xl mt-1 text-base md:text-lg text-gray-600">
+            <p className="max-w-xl mt-0 text-base md:text-lg text-gray-600">
               Explore our curated collection of the latest styles.
             </p>
           </div>
           <div className="md:pt-2">
             <a
               href="#"
-              className="inline-flex items-center justify-center border border-gray-900 px-5 py-3 text-sm md:text-base tracking-wide uppercase text-gray-900 transition hover:bg-gray-900 hover:text-white"
+              className="inline-flex items-center justify-center border border-gray-900 px-4 py-3 text-sm md:text-base tracking-wide uppercase text-gray-900 transition hover:bg-gray-900 hover:text-white"
             >
               Shop All New Arrivals
             </a>
