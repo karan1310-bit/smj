@@ -6,7 +6,7 @@ const categories = [
   {
     id: 1,
     name: "RINGS",
-    src: "/1.jpg",
+    src: "/r2.jpg",
     alt: "Earrings",
     width: 720,
     height: 900,
@@ -14,15 +14,15 @@ const categories = [
   {
     id: 2,
     name: "EARRINGS",
-    src: "/2.jpg",
+    src: "/e2.jpg",
     alt: "Finger Rings",
     width: 720,
     height: 900,
   },
   {
     id: 3,
-    name: "PENDANTS",
-    src: "/hero.jpg",
+    name: "Bangles",
+    src: "/b1.jpg",
     alt: "Pendants",
     width: 720,
     height: 900,
@@ -30,7 +30,7 @@ const categories = [
   {
     id: 4,
     name: "NECKLACES",
-    src: "/hey.jpg",
+    src: "/n2.jpg",
     width: 720,
     height: 900,
   },

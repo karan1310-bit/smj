@@ -61,12 +61,12 @@ export default function Navbar() {
 
         {/* Nav Links */}
         <nav className="mt-10 flex flex-col gap-4 text-sm md:text-base font-extralight uppercase">
-          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Rings</Link>
-          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Necklaces</Link>
-          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Earrings</Link>
-          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Chains</Link>
-          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Bracelet</Link>
-          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Bangles</Link>
+          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-600 transition border-b border-gray-300 pb-2">Rings</Link>
+          <Link href="/necklaces" onClick={closeMenu} className="hover:text-gray-600 transition border-b border-gray-300 pb-2">Necklaces</Link>
+          <Link href="/earrings" onClick={closeMenu} className="hover:text-gray-600 transition border-b border-gray-300 pb-2">Earrings</Link>
+          <Link href="/necklaces" onClick={closeMenu} className="hover:text-gray-600 transition border-b border-gray-300 pb-2">Chains</Link>
+          <Link href="/bracelets" onClick={closeMenu} className="hover:text-gray-600 transition border-b border-gray-300 pb-2">Bracelet</Link>
+          <Link href="/bangles" onClick={closeMenu} className="hover:text-gray-600 transition border-b border-gray-300 pb-2">Bangles</Link>
         </nav>
       </aside>
     </>

@@ -1,13 +1,14 @@
 import Footer from '@/components/Footer'
-import MiaEarringsGrid from '@/components/Grid'
+
 import Navbar from '@/components/Navbar'
+import RingGrid from '@/components/RingGrid'
 import React from 'react'
 
 const page = () => {
   return (
         <main className='bg-[#FFFFFF] text-black font-neue'>
             <Navbar />
-            <MiaEarringsGrid />
+            <RingGrid />
             <Footer />
          </main>   
   )

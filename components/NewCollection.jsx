@@ -7,35 +7,35 @@ const products = [
  {
     id: 1,
     brand: 'Kate Spade',
-    name: 'Set',
+    name: 'Set of Pure charm',
     price: '$68.00',
-    image: '/3.png',
+    image: '/b2.jpg',
     alt: 'Rose gold bangle with stones',
     isNew: true,
   },
   {
     id: 2,
     brand: 'SATYA',
-    name: 'I Am Loved Spinner Ring',
+    name: 'I Am  Spinner Ring',
     price: '$129.00',
-    image: '/1.jpg',
+    image: '/e1.jpg',
     alt: 'Gold spinner ring',
   },
   {
     id: 3,
     brand: 'Wanderlust + Co',
-    name: 'Sunseeker Charm Huggie Earrings',
+    name: 'Charm Huggie Earrings',
     price: '$55.00',
-    image: '/hey.jpg',
+    image: '/r1.jpg',
     alt: 'Gold huggie earrings with sun charm',
   },
   {
     id: 5,
     brand: 'Kate Spade',
-    name: 'Set',
+    name: 'Set of love',
     price: '$68.00',
-    image: '/3.png',
-    alt: 'Rose gold bangle with stones',
+    image: '/n2.jpg',
+    alt: 'Rose gold bangle stones',
     isNew: true,
   },
   {
@@ -43,7 +43,7 @@ const products = [
     brand: 'SATYA',
     name: 'I Am Loved Spinner Ring',
     price: '$129.00',
-    image: '/1.jpg',
+    image: '/e3.jpg',
     alt: 'Gold spinner ring',
   },
   {
@@ -51,7 +51,23 @@ const products = [
     brand: 'Wanderlust + Co',
     name: 'Sunseeker Charm Huggie Earrings',
     price: '$55.00',
-    image: '/hey.jpg',
+    image: '/b5.jpg',
+    alt: 'Gold huggie earrings with sun charm',
+  },
+  {
+    id: 8,
+    brand: 'SATYA',
+    name: 'I Am Loved Ring',
+    price: '$129.00',
+    image: '/b3.jpg',
+    alt: 'Gold spinner ring',
+  },
+  {
+    id: 9,
+    brand: 'Wanderlust + Co',
+    name: 'Sunseeker Charm Earrings',
+    price: '$55.00',
+    image: '/b4.jpg',
     alt: 'Gold huggie earrings with sun charm',
   },
 ];
@@ -95,17 +111,17 @@ export default function NewArrivals() {
           <button
             aria-label="Scroll left"
             onClick={() => scrollBy(-300)}
-            className="hidden md:flex items-center justify-center absolute left-3 top-1/2 z-20 -translate-y-1/2 h-10 w-10 rounded-full bg-white shadow-md border border-gray-300 hover:bg-gray-100 transition"
+            className="hidden md:flex items-center justify-center absolute left-0 top-[38%] z-20 -translate-y-1/2 h-10 w-10 rounded-full bg-white shadow-md border border-gray-300 hover:bg-gray-100 transition"
           >
-            <span className="text-2xl text-gray-700">‹</span>
+            <span className="text-xl text-gray-700">‹</span>
           </button>
 
           <button
             aria-label="Scroll right"
             onClick={() => scrollBy(300)}
-            className="hidden md:flex items-center justify-center absolute right-3 top-1/2 z-20 -translate-y-1/2 h-10 w-10 rounded-full bg-white shadow-md border border-gray-300 hover:bg-gray-100 transition"
+            className="hidden md:flex items-center justify-center absolute right-0 top-[38%] z-20 -translate-y-1/2 h-10 w-10 rounded-full bg-white shadow-md border border-gray-300 hover:bg-gray-100 transition"
           >
-            <span className="text-2xl text-gray-700">›</span>
+            <span className="text-xl text-gray-700">›</span>
           </button>
 
           {/* Product list */}
