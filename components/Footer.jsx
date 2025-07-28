@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <footer className="w-full bg-black text-white text-sm md:text-base font-neue">
-      <div className="max-w-[1320px] px-4 md:px-16 py-8 md:py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10">
+      <div className="max-w-[1320px] px-4 md:px-16 py-8 md:py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10">
         {/* Logo */}
         <div>
           <h2 className="text-2xl font-medium mb-0">Shree Mahaveer Jewellers</h2>

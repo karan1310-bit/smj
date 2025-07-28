@@ -76,7 +76,7 @@ export default function NewArrivals() {
               Explore our curated collection of the latest styles.
             </p>
           </div>
-          <div className="md:pt-2">
+          <div className="pt-1 md:pt-2">
             <a
               href="#"
               className="inline-flex items-center justify-center border border-gray-900 px-4 py-3 text-sm md:text-base tracking-wide uppercase text-gray-900 transition hover:bg-gray-900 hover:text-white"
@@ -87,7 +87,7 @@ export default function NewArrivals() {
         </div>
 
         {/* Horizontal scroller */}
-        <div className="relative mt-10 md:mt-14">
+        <div className="relative mt-8 md:mt-14">
           {/* Gradients */}
      
 

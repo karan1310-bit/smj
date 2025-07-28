@@ -15,7 +15,7 @@ export default function Navbar() {
       {/* Top Navbar */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-[#FFFFFF] text-black px-4 md:px-12 py-3 md:py-3 flex justify-between items-center">
         <Link href="/">
-        <h1>SMJ</h1>
+        <h1 className='md:text-xl'>SMJ</h1>
         </Link>
         <button
           onClick={toggleMenu}
@@ -61,12 +61,12 @@ export default function Navbar() {
 
         {/* Nav Links */}
         <nav className="mt-10 flex flex-col gap-4 text-sm md:text-base font-extralight uppercase">
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Rings</Link>
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Necklaces</Link>
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Earrings</Link>
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Chains</Link>
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Bracelet</Link>
-          <Link href="/" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Bangles</Link>
+          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Rings</Link>
+          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Necklaces</Link>
+          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Earrings</Link>
+          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Chains</Link>
+          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Bracelet</Link>
+          <Link href="/rings" onClick={closeMenu} className="hover:text-gray-400 transition border-b border-gray-300 pb-2">Bangles</Link>
         </nav>
       </aside>
     </>
