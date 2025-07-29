@@ -73,7 +73,7 @@ const products = [
 
 export default function RingGrid() {
   return (
-    <section className="w-full min-h-screen mt-10 bg-white px-4 sm:px-6 md:px-16 py-12">
+    <section className="w-full min-h-screen mt-10 bg-white px-4 sm:px-6 md:px-16 py-8">
       <div className="max-w-9xl md:max-w-9xl mx-auto">
 
         <nav className="text-base text-gray-500 mb-2 md:mb-4">

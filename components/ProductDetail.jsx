@@ -78,7 +78,7 @@ export default function ProductDetail() {
             {/* Buttons */}
             <div className="pt-2 md:pt-4">
   <a
-    href={`https://wa.me/12368805446?text=${encodeURIComponent(
+    href={`https://wa.me/917225928721?text=${encodeURIComponent(
       `Hi, I'm interested in buying "${product.title}" listed for ${product.price}. Is it available?`
     )}`}
     target="_blank"

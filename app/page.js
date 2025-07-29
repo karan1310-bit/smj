@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar'
 import NewArrivals from '@/components/NewCollection'
 import KinnFlagshipHero from '@/components/Store'
 import TanishqCollections from '@/components/ThreeSection'
-import ShopHighlights from '@/components/Words'
+
 import React from 'react'
 
 const page = () => {
@@ -16,7 +16,7 @@ const page = () => {
       <FindYourPerfectMatch />
       <TanishqCollections />
       <NewArrivals />
-      <ShopHighlights />
+ 
       <KinnFlagshipHero />
       <Footer />
     </main>
