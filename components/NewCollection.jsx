@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRef } from 'react';
 
 const products = [
@@ -124,11 +125,11 @@ export default function NewArrivals() {
             <span className="text-xl text-gray-700">›</span>
           </button>
 
-          {/* Product list */}
+          {/* Product list */}<Link href="/product/1"> 
           <ul
             ref={trackRef}
             className="flex gap-6 overflow-x-auto snap-x snap-mandatory px-1 py-2 sm:px-3 scroll-smooth scrollbar-hide"
-          >
+          > 
             {products.map((p) => (
               <li
                 key={p.id}
@@ -159,7 +160,7 @@ export default function NewArrivals() {
                 </article>
               </li>
             ))}
-          </ul>
+          </ul></Link>
         </div>
 
       </div>
